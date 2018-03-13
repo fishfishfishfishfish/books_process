@@ -9,7 +9,7 @@ import sqlite3
 if __name__ == '__main__':
     punk = r'[\s\d!！?？.,"“”‘’：:;；\[\]()—\^*…]'  # 标点符号
     # 连接数据库
-    conn = sqlite3.connect('PeterPan.db')
+    conn = sqlite3.connect('AmericanGods.db')
     #  单词表
     cursor = conn.cursor()
     cursor.execute('''create table Word (
@@ -26,10 +26,10 @@ if __name__ == '__main__':
     cursor.close()
     conn.commit()
 
-    chapter = 1
-    while chapter <= 17:
+    chapters = ['1-SOMEWHERE IN AMERICA', '1', '10', '11-Coming to America', '11', '12-INTERLUDE 2', '12-INTERLUDE 3', '12-INTERLUDE', '12', '13-COMING TO AMERICA', '13', '14', '15', '16', '17', '18', '19', '2', '20-POSTSCRIPT', '20', '3-Coming To America', '3', '4-Coming To America', '4', '5', '6', '7-SOMEWHERE IN AMERICA', '7', '8', '9-MEANWHILE. A CONVERSATION.html', '9']
+    for chapter in chapters:
         cursor_s = conn.cursor()
-        sentences = cursor_s.execute('select * from Sentence where chapter = ' + str(chapter))
+        sentences = cursor_s.execute('select * from Sentence where chapter = ?', (chapter,))
         sentence = sentences.fetchone()
         while sentence is not None:
             words = re.split(punk, sentence[1].strip("\n"))
@@ -58,7 +58,6 @@ if __name__ == '__main__':
         cursor_s.close()
         sentences.close()
         conn.commit()
-        chapter += 1
         print(chapter)
 
     conn.close()
