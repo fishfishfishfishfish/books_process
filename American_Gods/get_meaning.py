@@ -75,7 +75,7 @@ if __name__ == '__main__':
     Words = cursor_w.execute('select * from Word')
     Word = Words.fetchone()
     while Word is not None:
-        print(Word[0])
+        # print(Word[0])
         Meaning = get_mean(Word[0])
         cursor_m = conn.cursor()
         cursor_m.execute('''update Word set meaning = ? where word = ?''', (Meaning, Word[0]))

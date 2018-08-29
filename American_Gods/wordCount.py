@@ -7,7 +7,7 @@ import re
 import sqlite3
 
 if __name__ == '__main__':
-    punk = r'[\s\d!！?？.,"“”‘’：:;；\[\]()—\^*…]'  # 标点符号
+    punk = r'[\s\d!！?？.,"“”‘’：:;；\[\]()—\^*…`\']'  # 标点符号
     # 连接数据库
     conn = sqlite3.connect('AmericanGods.db')
     #  单词表
@@ -43,7 +43,7 @@ if __name__ == '__main__':
                                         values (?, null, ?)''', (w, '1'))
                     cursor.execute('''insert into WSLink(word, sentenceId)
                                         values(?,?)''', (w, str(sentence[0])))
-                    # print(w)
+                    print(w)
                 else:
                     new_count = int(cursor.execute('''select count from Word where word = ?''', (w,)).fetchone()[0]) + 1
                     cursor.execute('''update Word set count = ? where word = ?''',
