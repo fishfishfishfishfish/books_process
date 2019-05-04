@@ -1,0 +1,1223 @@
+p {
+    text-indent: 0;
+    text-align: left
+    }
+/* Font Definitions */
+@font-face {
+    panose-1: 2 11 6 4 2 2 2 2 2 4
+    }
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+h1 {
+    margin-top: 30pt;
+    margin-right: 0;
+    margin-bottom: 24pt;
+    margin-left: 0;
+    text-align: center;
+    text-indent: 0;
+    page-break-before: always;
+    page-break-after: avoid;
+    text-autospace: none;
+    color: navy;
+    font-weight: bold
+    }
+h2 {
+    margin-top: 30pt;
+    margin-right: 0;
+    margin-bottom: 0.25in;
+    margin-left: 0;
+    text-align: center;
+    text-indent: 0;
+    page-break-before: always;
+    page-break-after: avoid;
+    text-autospace: none;
+    color: navy;
+    font-weight: bold
+    }
+h3 {
+    margin-top: 6pt;
+    margin-right: 0;
+    margin-bottom: 12pt;
+    margin-left: 0;
+    text-align: center;
+    text-indent: 0;
+    page-break-after: avoid;
+    font-weight: bold
+    }
+p.MsoToc1, li.MsoToc1, div.MsoToc1 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0;
+    font-weight: bold
+    }
+p.MsoToc2, li.MsoToc2, div.MsoToc2 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 12.25pt;
+    margin-bottom: 0.0001pt;
+    text-indent: 0;
+    font-weight: bold
+    }
+p.MsoToc3, li.MsoToc3, div.MsoToc3 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0.3in;
+    margin-bottom: 0.0001pt;
+    text-indent: 0;
+    font-weight: bold
+    }
+p.MsoList, li.MsoList, div.MsoList {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0.25in;
+    margin-bottom: 0.0001pt;
+    text-indent: -0.25in
+    }
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.MsoBodyTextFirstIndent, li.MsoBodyTextFirstIndent, div.MsoBodyTextFirstIndent {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.MsoBodyTextFirstIndent2, li.MsoBodyTextFirstIndent2, div.MsoBodyTextFirstIndent2 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.MsoBlockText, li.MsoBlockText, div.MsoBlockText {
+    margin-top: 0;
+    margin-right: 0.5in;
+    margin-bottom: 6pt;
+    margin-left: 0.5in;
+    text-indent: 0
+    }
+a:link, span.MsoHyperlink {
+    color: blue;
+    text-decoration: none
+    }
+a:visited, span.MsoHyperlinkFollowed {
+    color: purple;
+    text-decoration: underline
+    }
+p {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.Style11ptFirstline025, li.Style11ptFirstline025, div.Style11ptFirstline025 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleFirstline025, li.StyleFirstline025, div.StyleFirstline025 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.Style1, li.Style1, div.Style1 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    font-style: italic
+    }
+p.StyleLeft025Firstline0, li.StyleLeft025Firstline0, div.StyleLeft025Firstline0 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleLeft025Firstline01, li.StyleLeft025Firstline01, div.StyleLeft025Firstline01 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleLeft025Firstline02, li.StyleLeft025Firstline02, div.StyleLeft025Firstline02 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.Style2, li.Style2, div.Style2 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 6pt;
+    margin-left: 0;
+    text-align: center;
+    text-indent: 0;
+    color: black;
+    font-weight: bold;
+    font-style: italic
+    }
+p.StyleLeft025Firstline03, li.StyleLeft025Firstline03, div.StyleLeft025Firstline03 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleLeft025Firstline04, li.StyleLeft025Firstline04, div.StyleLeft025Firstline04 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleLeft025Firstline05, li.StyleLeft025Firstline05, div.StyleLeft025Firstline05 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleBodyText2LeftFirstline025, li.StyleBodyText2LeftFirstline025, div.StyleBodyText2LeftFirstline025 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    text-autospace: none;
+    font-style: italic
+    }
+p.StyleItalicFirstline025, li.StyleItalicFirstline025, div.StyleItalicFirstline025 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    font-style: italic
+    }
+p.StyleBodyTextIndentLeft0Firstline025After0pt, li.StyleBodyTextIndentLeft0Firstline025After0pt, div.StyleBodyTextIndentLeft0Firstline025After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM11Left025, li.StyleCM11Left025, div.StyleCM11Left025 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    text-autospace: none
+    }
+p.StyleCM10BlackFirstline025, li.StyleCM10BlackFirstline025, div.StyleCM10BlackFirstline025 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    text-autospace: none;
+    color: black
+    }
+p.StyleCM10ItalicBlack, li.StyleCM10ItalicBlack, div.StyleCM10ItalicBlack {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    text-autospace: none;
+    color: black;
+    font-style: italic
+    }
+p.StyleCM10Black, li.StyleCM10Black, div.StyleCM10Black {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    text-autospace: none;
+    color: black
+    }
+p.StyleCM13BlackLeft025, li.StyleCM13BlackLeft025, div.StyleCM13BlackLeft025 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    text-autospace: none;
+    color: black
+    }
+p.StyleCM8BlackFirstline025, li.StyleCM8BlackFirstline025, div.StyleCM8BlackFirstline025 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    text-autospace: none;
+    color: black
+    }
+p.StyleCM11BlackLeft025, li.StyleCM11BlackLeft025, div.StyleCM11BlackLeft025 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    text-autospace: none;
+    color: black
+    }
+p.CM51, li.CM51, div.CM51 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    text-autospace: none
+    }
+p.StyleCM11Firstline025, li.StyleCM11Firstline025, div.StyleCM11Firstline025 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    text-autospace: none
+    }
+p.StyleCM56BlackFirstline025LinespacingAtleast13, li.StyleCM56BlackFirstline025LinespacingAtleast13, div.StyleCM56BlackFirstline025LinespacingAtleast13 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    text-autospace: none;
+    color: black
+    }
+p.StyleLeft025Firstline06, li.StyleLeft025Firstline06, div.StyleLeft025Firstline06 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleBodyTextIndentAfter0pt, li.StyleBodyTextIndentAfter0pt, div.StyleBodyTextIndentAfter0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleLeft02Firstline0, li.StyleLeft02Firstline0, div.StyleLeft02Firstline0 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0;
+    color: black
+    }
+p.Style48ptBoldItalicDarkBlueCenteredFirstline0, li.Style48ptBoldItalicDarkBlueCenteredFirstline0, div.Style48ptBoldItalicDarkBlueCenteredFirstline0 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0;
+    color: navy;
+    font-weight: bold;
+    font-style: italic
+    }
+p.Style14ptBoldDarkBlueCenteredFirstline0, li.Style14ptBoldDarkBlueCenteredFirstline0, div.Style14ptBoldDarkBlueCenteredFirstline0 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0;
+    color: navy;
+    font-weight: bold
+    }
+span.Style20ptBoldDarkBlue {
+    color: navy;
+    font-weight: bold
+    }
+p.StyleLeft02Firstline01, li.StyleLeft02Firstline01, div.StyleLeft02Firstline01 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0;
+    color: black
+    }
+p.StyleStyleLeft02Firstline036ptBoldItalicDark, li.StyleStyleLeft02Firstline036ptBoldItalicDark, div.StyleStyleLeft02Firstline036ptBoldItalicDark {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0;
+    color: navy;
+    font-weight: bold;
+    font-style: italic
+    }
+p.StyleStyleLeft02Firstline08ptBoldDarkBlueCe, li.StyleStyleLeft02Firstline08ptBoldDarkBlueCe, div.StyleStyleLeft02Firstline08ptBoldDarkBlueCe {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0;
+    color: navy;
+    font-weight: bold
+    }
+p.StyleStyleLeft02Firstline014ptBoldDarkBlueC, li.StyleStyleLeft02Firstline014ptBoldDarkBlueC, div.StyleStyleLeft02Firstline014ptBoldDarkBlueC {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0;
+    color: navy;
+    font-weight: bold
+    }
+p.StyleStyleLeft02Firstline0120ptBoldDarkBlue, li.StyleStyleLeft02Firstline0120ptBoldDarkBlue, div.StyleStyleLeft02Firstline0120ptBoldDarkBlue {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0;
+    color: navy;
+    font-weight: bold
+    }
+p.StyleBoldItalicFirstline0, li.StyleBoldItalicFirstline0, div.StyleBoldItalicFirstline0 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0;
+    font-weight: bold;
+    font-style: italic
+    }
+p.StyleBlackFirstline025, li.StyleBlackFirstline025, div.StyleBlackFirstline025 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    color: black
+    }
+p.StyleLeft025Firstline08, li.StyleLeft025Firstline08, div.StyleLeft025Firstline08 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.Style36ptBoldItalicDarkBlueCenteredLeft025First, li.Style36ptBoldItalicDarkBlueCenteredLeft025First, div.Style36ptBoldItalicDarkBlueCenteredLeft025First {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0;
+    color: navy;
+    font-weight: bold;
+    font-style: italic
+    }
+p.StyleCenteredLeft025Firstline0, li.StyleCenteredLeft025Firstline0, div.StyleCenteredLeft025Firstline0 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0
+    }
+p.StyleLeft025Firstline07, li.StyleLeft025Firstline07, div.StyleLeft025Firstline07 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.Style3, li.Style3, div.Style3 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0;
+    font-weight: bold;
+    font-style: italic
+    }
+p.StyleCenteredFirstline0, li.StyleCenteredFirstline0, div.StyleCenteredFirstline0 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0
+    }
+p.StyleBodyText2Left1Right1After0pt, li.StyleBodyText2Left1Right1After0pt, div.StyleBodyText2Left1Right1After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleFirstline035, li.StyleFirstline035, div.StyleFirstline035 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleLeft025Firstline09, li.StyleLeft025Firstline09, div.StyleLeft025Firstline09 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleBoldDarkBlueCenteredLeft025Firstline0, li.StyleBoldDarkBlueCenteredLeft025Firstline0, div.StyleBoldDarkBlueCenteredLeft025Firstline0 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0;
+    color: navy;
+    font-weight: bold
+    }
+p.StyleLeft025Firstline010, li.StyleLeft025Firstline010, div.StyleLeft025Firstline010 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleFirstline0, li.StyleFirstline0, div.StyleFirstline0 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleJustifiedFirstline022, li.StyleJustifiedFirstline022, div.StyleJustifiedFirstline022 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0
+    }
+p.StyleLeft025Firstline011, li.StyleLeft025Firstline011, div.StyleLeft025Firstline011 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleFirstline017, li.StyleFirstline017, div.StyleFirstline017 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.Style10ptBoldCentered, li.Style10ptBoldCentered, div.Style10ptBoldCentered {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0;
+    font-weight: bold
+    }
+p.Style10ptItalicCentered, li.Style10ptItalicCentered, div.Style10ptItalicCentered {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0;
+    font-style: italic
+    }
+p.Style10ptCentered, li.Style10ptCentered, div.Style10ptCentered {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0
+    }
+p.StyleLeft025Firstline012, li.StyleLeft025Firstline012, div.StyleLeft025Firstline012 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleLeft025Firstline013, li.StyleLeft025Firstline013, div.StyleLeft025Firstline013 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0
+    }
+p.Style4, li.Style4, div.Style4 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0;
+    font-style: italic
+    }
+p.Style11ptJustified, li.Style11ptJustified, div.Style11ptJustified {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.Style10ptBoldCentered1, li.Style10ptBoldCentered1, div.Style10ptBoldCentered1 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0;
+    font-weight: bold
+    }
+p.Style11ptJustifiedFirstline025, li.Style11ptJustifiedFirstline025, div.Style11ptJustifiedFirstline025 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.Style1a, li.Style1a, div.Style1a {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 3pt;
+    margin-left: 0;
+    text-align: center;
+    text-indent: 0;
+    font-weight: bold
+    }
+p.Style5, li.Style5, div.Style5 {
+    margin-top: 6pt;
+    margin-right: 0;
+    margin-bottom: 6pt;
+    margin-left: 0;
+    text-align: center;
+    text-indent: 0;
+    page-break-before: always;
+    color: navy;
+    font-weight: bold
+    }
+p.StyleItalicFirstline0, li.StyleItalicFirstline0, div.StyleItalicFirstline0 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    font-style: italic
+    }
+p.Style6, li.Style6, div.Style6 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    font-style: italic
+    }
+p.StyleFirstline0172, li.StyleFirstline0172, div.StyleFirstline0172 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.Style8, li.Style8, div.Style8 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0
+    }
+p.StyleFirstline013, li.StyleFirstline013, div.StyleFirstline013 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    background: white;
+    text-autospace: none
+    }
+p.StyleFirstline0131, li.StyleFirstline0131, div.StyleFirstline0131 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleFirstline0132, li.StyleFirstline0132, div.StyleFirstline0132 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleFirstline0133, li.StyleFirstline0133, div.StyleFirstline0133 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.Style10ptBlackJustifiedLeft0Hanging025, li.Style10ptBlackJustifiedLeft0Hanging025, div.Style10ptBlackJustifiedLeft0Hanging025 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0;
+    color: black
+    }
+p.Style11ptJustified1, li.Style11ptJustified1, div.Style11ptJustified1 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.Style11ptJustifiedFirstline0251, li.Style11ptJustifiedFirstline0251, div.Style11ptJustifiedFirstline0251 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.Style11ptJustified2, li.Style11ptJustified2, div.Style11ptJustified2 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.Style11ptJustifiedFirstline0252, li.Style11ptJustifiedFirstline0252, div.Style11ptJustifiedFirstline0252 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.Style11ptJustified3, li.Style11ptJustified3, div.Style11ptJustified3 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.Style11ptJustifiedFirstline0253, li.Style11ptJustifiedFirstline0253, div.Style11ptJustifiedFirstline0253 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.Style11ptJustified4, li.Style11ptJustified4, div.Style11ptJustified4 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.Style11ptJustifiedFirstline0254, li.Style11ptJustifiedFirstline0254, div.Style11ptJustifiedFirstline0254 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.Style11ptJustified5, li.Style11ptJustified5, div.Style11ptJustified5 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.Style11ptJustifiedFirstline0255, li.Style11ptJustifiedFirstline0255, div.Style11ptJustifiedFirstline0255 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.Style11ptCentered, li.Style11ptCentered, div.Style11ptCentered {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0;
+    letter-spacing: 12pt
+    }
+p.Style11ptJustified6, li.Style11ptJustified6, div.Style11ptJustified6 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.Style11ptJustifiedFirstline0256, li.Style11ptJustifiedFirstline0256, div.Style11ptJustifiedFirstline0256 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.Style11ptJustifiedFirstline0257, li.Style11ptJustifiedFirstline0257, div.Style11ptJustifiedFirstline0257 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.StyleJustifiedFirstline0221, li.StyleJustifiedFirstline0221, div.StyleJustifiedFirstline0221 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.StyleCourierNew10ptFirstline0, li.StyleCourierNew10ptFirstline0, div.StyleCourierNew10ptFirstline0 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleFirstline01, li.StyleFirstline01, div.StyleFirstline01 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleCourierNew10ptFirstline01, li.StyleCourierNew10ptFirstline01, div.StyleCourierNew10ptFirstline01 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.Style10ptFirstline0, li.Style10ptFirstline0, div.Style10ptFirstline0 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleCourierNew10ptFirstline02, li.StyleCourierNew10ptFirstline02, div.StyleCourierNew10ptFirstline02 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.Style10ptFirstline01, li.Style10ptFirstline01, div.Style10ptFirstline01 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleFirstline02, li.StyleFirstline02, div.StyleFirstline02 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleFirstline03, li.StyleFirstline03, div.StyleFirstline03 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleFirstline04, li.StyleFirstline04, div.StyleFirstline04 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleFirstline05, li.StyleFirstline05, div.StyleFirstline05 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleFirstline06, li.StyleFirstline06, div.StyleFirstline06 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleFirstline07, li.StyleFirstline07, div.StyleFirstline07 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.Style12ptJustifiedLeft0Firstline017, li.Style12ptJustifiedLeft0Firstline017, div.Style12ptJustifiedLeft0Firstline017 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0
+    }
+p.StyleJustifiedLeft-001Hanging001, li.StyleJustifiedLeft-001Hanging001, div.StyleJustifiedLeft-001Hanging001 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0.25in;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: -0.25in
+    }
+p.StyleJustifiedLeft-001Hanging0011, li.StyleJustifiedLeft-001Hanging0011, div.StyleJustifiedLeft-001Hanging0011 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0
+    }
+p.StyleJustifiedLeft-001Hanging0012, li.StyleJustifiedLeft-001Hanging0012, div.StyleJustifiedLeft-001Hanging0012 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0.25in;
+    margin-bottom: 0.0001pt;
+    text-indent: -0.25in
+    }
+p.StyleJustifiedLeft-001Hanging0013, li.StyleJustifiedLeft-001Hanging0013, div.StyleJustifiedLeft-001Hanging0013 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0.25in;
+    margin-bottom: 0.0001pt;
+    text-indent: -0.25in
+    }
+p.StyleFirstline08, li.StyleFirstline08, div.StyleFirstline08 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleFirstline09, li.StyleFirstline09, div.StyleFirstline09 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleFirstline010, li.StyleFirstline010, div.StyleFirstline010 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleCourierNew10ptFirstline04, li.StyleCourierNew10ptFirstline04, div.StyleCourierNew10ptFirstline04 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleCourierNew10ptFirstline05, li.StyleCourierNew10ptFirstline05, div.StyleCourierNew10ptFirstline05 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleCourierNew10ptFirstline06, li.StyleCourierNew10ptFirstline06, div.StyleCourierNew10ptFirstline06 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleCourierNew10ptFirstline07, li.StyleCourierNew10ptFirstline07, div.StyleCourierNew10ptFirstline07 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleCourierNew10ptFirstline08, li.StyleCourierNew10ptFirstline08, div.StyleCourierNew10ptFirstline08 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.Style10ptFirstline02, li.Style10ptFirstline02, div.Style10ptFirstline02 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleFirstline022, li.StyleFirstline022, div.StyleFirstline022 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleFirstline033, li.StyleFirstline033, div.StyleFirstline033 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.Style7, li.Style7, div.Style7 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleFirstline011, li.StyleFirstline011, div.StyleFirstline011 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleFirstline0331, li.StyleFirstline0331, div.StyleFirstline0331 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleDefaultTimesNewRomanItalicAuto, li.StyleDefaultTimesNewRomanItalicAuto, div.StyleDefaultTimesNewRomanItalicAuto {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0;
+    font-style: italic
+    }
+p.StyleDefaultTimesNewRomanAuto, li.StyleDefaultTimesNewRomanAuto, div.StyleDefaultTimesNewRomanAuto {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleDefaultFirstline033, li.StyleDefaultFirstline033, div.StyleDefaultFirstline033 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0;
+    color: black
+    }
+p.Default, li.Default, div.Default {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    text-autospace: none;
+    color: black
+    }
+p.StyleDefaultAutoFirstline033, li.StyleDefaultAutoFirstline033, div.StyleDefaultAutoFirstline033 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    text-autospace: none
+    }
+p.noindent, li.noindent, div.noindent {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleFirstline025BeforeAutoAfterAuto, li.StyleFirstline025BeforeAutoAfterAuto, div.StyleFirstline025BeforeAutoAfterAuto {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+span.Style75ptItalic {
+    font-style: italic
+    }
+p.Style12pt, li.Style12pt, div.Style12pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    background: white;
+    text-autospace: none
+    }
+p.StyleFirstline029, li.StyleFirstline029, div.StyleFirstline029 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.Style11ptBlackFirstline013, li.Style11ptBlackFirstline013, div.Style11ptBlackFirstline013 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    background: white;
+    text-autospace: none;
+    color: black
+    }
+p.StyleBodyTextTimesNewRomanFirstline02After0pt, li.StyleBodyTextTimesNewRomanFirstline02After0pt, div.StyleBodyTextTimesNewRomanFirstline02After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.Style11ptJustified7, li.Style11ptJustified7, div.Style11ptJustified7 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+p.StyleFirstline0332, li.StyleFirstline0332, div.StyleFirstline0332 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.Style125ptFirstline022Before3ptAfter3ptLin, li.Style125ptFirstline022Before3ptAfter3ptLin, div.Style125ptFirstline022Before3ptAfter3ptLin {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleFirstline022Before3ptAfter3ptLinespacing, li.StyleFirstline022Before3ptAfter3ptLinespacing, div.StyleFirstline022Before3ptAfter3ptLinespacing {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.Style125ptFirstline022Before3ptAfter3ptLin1, li.Style125ptFirstline022Before3ptAfter3ptLin1, div.Style125ptFirstline022Before3ptAfter3ptLin1 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleFirstline015, li.StyleFirstline015, div.StyleFirstline015 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleFirstline016, li.StyleFirstline016, div.StyleFirstline016 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM36Firstline025Right008After0pt, li.StyleCM36Firstline025Right008After0pt, div.StyleCM36Firstline025Right008After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.CM1, li.CM1, div.CM1 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0;
+    text-autospace: none
+    }
+p.StyleCM37Firstline025Right032After0pt, li.StyleCM37Firstline025Right032After0pt, div.StyleCM37Firstline025Right032After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM36Firstline025Right027After0pt, li.StyleCM36Firstline025Right027After0pt, div.StyleCM36Firstline025Right027After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM36Firstline025After0pt, li.StyleCM36Firstline025After0pt, div.StyleCM36Firstline025After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM36Firstline025Right013After0pt, li.StyleCM36Firstline025Right013After0pt, div.StyleCM36Firstline025Right013After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM36Firstline025Right05After0pt, li.StyleCM36Firstline025Right05After0pt, div.StyleCM36Firstline025Right05After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleDefaultAutoFirstline025Right241, li.StyleDefaultAutoFirstline025Right241, div.StyleDefaultAutoFirstline025Right241 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM38Firstline025After0pt, li.StyleCM38Firstline025After0pt, div.StyleCM38Firstline025After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM38Firstline025Right009After0pt, li.StyleCM38Firstline025Right009After0pt, div.StyleCM38Firstline025Right009After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM31Firstline025, li.StyleCM31Firstline025, div.StyleCM31Firstline025 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM34Firstline025Right018After0pt, li.StyleCM34Firstline025Right018After0pt, div.StyleCM34Firstline025Right018After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM3Firstline025Linespacingsingle, li.StyleCM3Firstline025Linespacingsingle, div.StyleCM3Firstline025Linespacingsingle {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM36Firstline025Right061After0pt, li.StyleCM36Firstline025Right061After0pt, div.StyleCM36Firstline025Right061After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM37Firstline025Right013After0pt, li.StyleCM37Firstline025Right013After0pt, div.StyleCM37Firstline025Right013After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM1Firstline025, li.StyleCM1Firstline025, div.StyleCM1Firstline025 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM10Firstline025Linespacingsingle, li.StyleCM10Firstline025Linespacingsingle, div.StyleCM10Firstline025Linespacingsingle {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM40Firstline025Right042After0pt, li.StyleCM40Firstline025Right042After0pt, div.StyleCM40Firstline025Right042After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM40Firstline025After0pt, li.StyleCM40Firstline025After0pt, div.StyleCM40Firstline025After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM41Firstline025Right254After0pt, li.StyleCM41Firstline025Right254After0pt, div.StyleCM41Firstline025Right254After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM36Firstline025Right032After0pt, li.StyleCM36Firstline025Right032After0pt, div.StyleCM36Firstline025Right032After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM2Firstline025Right008Linespacingsingle, li.StyleCM2Firstline025Right008Linespacingsingle, div.StyleCM2Firstline025Right008Linespacingsingle {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    text-autospace: none
+    }
+p.StyleCM34Firstline025After0pt, li.StyleCM34Firstline025After0pt, div.StyleCM34Firstline025After0pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCM36Firstline025After0pt1, li.StyleCM36Firstline025After0pt1, div.StyleCM36Firstline025After0pt1 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleCenteredFirstline025After3pt, li.StyleCenteredFirstline025After3pt, div.StyleCenteredFirstline025After3pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0;
+    text-autospace: none
+    }
+p.StyleCentered, li.StyleCentered, div.StyleCentered {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0
+    }
+p.Style36ptBoldCentered, li.Style36ptBoldCentered, div.Style36ptBoldCentered {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0;
+    font-weight: bold
+    }
+p.Style8ptBoldCentered, li.Style8ptBoldCentered, div.Style8ptBoldCentered {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    text-indent: 0;
+    font-weight: bold
+    }
+span.StyleDutch801RmBT18ptItalic {
+    font-style: italic
+    }
+p.StyleDutch801RmBT18ptCustomColorRGB1654242Firstli, li.StyleDutch801RmBT18ptCustomColorRGB1654242Firstli, div.StyleDutch801RmBT18ptCustomColorRGB1654242Firstli {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    color: brown
+    }
+p.StyleDutch801RmBT18ptFirstline025, li.StyleDutch801RmBT18ptFirstline025, div.StyleDutch801RmBT18ptFirstline025 {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    color: black
+    }
+span.StyleDutch801RmBT18ptItalic1 {
+    font-style: italic
+    }
+p.StyleStyleJustifiedFirstline0222Left, li.StyleStyleJustifiedFirstline0222Left, div.StyleStyleJustifiedFirstline0222Left {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleFirstline025After3pt, li.StyleFirstline025After3pt, div.StyleFirstline025After3pt {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    text-autospace: none
+    }
+p.StyleStyleJustifiedFirstline05Left, li.StyleStyleJustifiedFirstline05Left, div.StyleStyleJustifiedFirstline05Left {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in;
+    background: white;
+    text-autospace: none
+    }
+p.StyleStyleJustifiedFirstline05After12ptLeft, li.StyleStyleJustifiedFirstline05After12ptLeft, div.StyleStyleJustifiedFirstline05After12ptLeft {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+span.smallcaps {
+    font-variant: small-caps
+    }
+p.app, li.app, div.app {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0
+    }
+p.StyleNormalWebGeorgia, li.StyleNormalWebGeorgia, div.StyleNormalWebGeorgia {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+p.StyleappTimesNewRoman, li.StyleappTimesNewRoman, div.StyleappTimesNewRoman {
+    margin: 0;
+    margin-bottom: 0.0001pt;
+    text-indent: 0.25in
+    }
+span.msoIns {
+    text-decoration: underline;
+    color: teal
+    }
+span.msoDel {
+    text-decoration: line-through;
+    color: red
+    }
+div.Section1 {
+    page-break-before: always
+    }
+.calibre_class_6 {
+    font-variant: normal !important;
+    text-transform: uppercase
+    }
+.calibre_class_5 {
+    display: block;
+    page-break-after: always
+    }
+.calibre_class_0 {
+    color: navy
+    }
+.calibre_class_1 {
+    color: navy
+    }
+.calibre_class_3 {
+    color: navy
+    }
+.calibre_class_4 {
+    font-weight: normal
+    }
+.calibre_class_2 {
+    color: navy
+    }
+div#calibre_css_id_10 {
+    text-align: center
+    }
+p#calibre_css_id_12 {
+    text-align: center
+    }
+p#calibre_css_id_13 {
+    text-align: center
+    }
+div#calibre_css_id_11 {
+    text-align: center
+    }
+p#calibre_css_id_8 {
+    text-align: center
+    }
+p#calibre_css_id_9 {
+    text-align: center
+    }
+p#calibre_css_id_6 {
+    text-align: center
+    }
+p#calibre_css_id_7 {
+    text-align: center
+    }
+p#calibre_css_id_4 {
+    text-align: center
+    }
+p#calibre_css_id_5 {
+    text-align: center
+    }
+p#calibre_css_id_2 {
+    text-align: center
+    }
+p#calibre_css_id_3 {
+    text-align: center
+    }
+p#calibre_css_id_0 {
+    text-align: center
+    }
+p#calibre_css_id_1 {
+    text-align: center
+    }

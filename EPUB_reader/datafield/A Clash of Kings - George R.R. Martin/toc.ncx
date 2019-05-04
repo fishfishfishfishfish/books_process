@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+    <head>
+        <meta name="dtb:uid" content="6920a802-7846-4217-af68-b7b338eb26d5"/>
+        <meta name="dtb:depth" content="2"/>
+        <meta name="dtb:generator" content="calibre"/>
+        <meta name="dtb:totalPageCount" content="0"/>
+        <meta name="dtb:maxPageNumber" content="0"/>
+    </head>
+    <docTitle><text>Table of Contents</text></docTitle>
+    <navMap>
+        <navPoint id="85394dd4-905a-46aa-a83f-b906705f23e9" playOrder="1">
+            <navLabel>
+                <text>Chapter OneArya</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_5.html#cfs_11"/>
+        </navPoint>
+        <navPoint id="74cb68f3-a1d3-432d-a3c2-0d23072322a0" playOrder="2">
+            <navLabel>
+                <text>Chapter TwoSansa</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_6.html#cfs_12"/>
+        </navPoint>
+        <navPoint id="af0b735c-44ca-46cd-b1e2-b48af5f45f6c" playOrder="3">
+            <navLabel>
+                <text>Chapter ThreeTyrion</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_7.html#cfs_13"/>
+        </navPoint>
+        <navPoint id="3bf56926-4a4e-41c9-859d-62e595c8352c" playOrder="4">
+            <navLabel>
+                <text>Chapter FourBran</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_8.html#cfs_14"/>
+        </navPoint>
+        <navPoint id="f7be625e-9a63-4e69-a1f5-6ea6912a26ec" playOrder="5">
+            <navLabel>
+                <text>Chapter FiveArya</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_9.html#cfs_15"/>
+        </navPoint>
+        <navPoint id="2e48b128-52b1-4aa2-8114-e72ddd7eaee7" playOrder="6">
+            <navLabel>
+                <text>Chapter SixJon</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_10.html#cfs_16"/>
+        </navPoint>
+        <navPoint id="dba64299-e4f0-4793-ae93-ada631fb545e" playOrder="7">
+            <navLabel>
+                <text>Chapter SevenCatelyn</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_11.html#cfs_17"/>
+        </navPoint>
+        <navPoint id="be7947a0-6be8-4771-969e-1bed7dd58855" playOrder="8">
+            <navLabel>
+                <text>Chapter EightTyrion</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_12.html#cfs_18"/>
+        </navPoint>
+        <navPoint id="dcd5a7db-3860-4e84-89aa-74e2c8aec06a" playOrder="9">
+            <navLabel>
+                <text>Chapter NineArya</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_13.html#cfs_19"/>
+        </navPoint>
+        <navPoint id="4638201b-f945-44f5-853b-a2a82d7c841d" playOrder="10">
+            <navLabel>
+                <text>Chapter TenDavos</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_14.html#cfs_20"/>
+        </navPoint>
+        <navPoint id="ddc726ef-b642-47a9-b518-ef51c00edf61" playOrder="11">
+            <navLabel>
+                <text>Chapter ElevenTheon</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_15.html#cfs_21"/>
+        </navPoint>
+        <navPoint id="229da3e3-987b-4f20-86eb-c49b364a9c55" playOrder="12">
+            <navLabel>
+                <text>Chapter TwelveDaenerys</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_16.html#cfs_22"/>
+        </navPoint>
+        <navPoint id="3256c7fb-2aee-496c-9a91-6f7b3d1bea1a" playOrder="13">
+            <navLabel>
+                <text>Chapter ThirteenJon</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_17.html#cfs_23"/>
+        </navPoint>
+        <navPoint id="de610d79-5c80-4b87-8eac-010c84f1c83b" playOrder="14">
+            <navLabel>
+                <text>Chapter FourteenArya</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_18.html#cfs_24"/>
+        </navPoint>
+        <navPoint id="aaa9714a-c82b-4b6e-a30b-e3ab6d2c9234" playOrder="15">
+            <navLabel>
+                <text>Chapter FifteenTyrion</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_19.html#cfs_25"/>
+        </navPoint>
+        <navPoint id="32d81bd1-3367-4fca-88f1-615cde3ed5da" playOrder="16">
+            <navLabel>
+                <text>Chapter SixteenBran</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_20.html#cfs_26"/>
+        </navPoint>
+        <navPoint id="d6a28619-a5c3-42f1-b326-257b1fa8ce65" playOrder="17">
+            <navLabel>
+                <text>Chapter SeventeenTyrion</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_21.html#cfs_27"/>
+        </navPoint>
+        <navPoint id="47b0273c-bf69-40ae-903c-f5fa4f99ec29" playOrder="18">
+            <navLabel>
+                <text>Chapter EighteenSansa</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_22.html#cfs_28"/>
+        </navPoint>
+        <navPoint id="780d01a4-3cef-418e-b1c5-664340987aef" playOrder="19">
+            <navLabel>
+                <text>Chapter NineteenArya</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_23.html#cfs_29"/>
+        </navPoint>
+        <navPoint id="242b8871-3051-4cfd-909e-a57eda7132ba" playOrder="20">
+            <navLabel>
+                <text>Chapter TwentyTyrion</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_24.html#cfs_30"/>
+        </navPoint>
+        <navPoint id="457d6701-9991-464f-b542-a6e3bd2dac91" playOrder="21">
+            <navLabel>
+                <text>Chapter Twenty OneBran</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_25.html#cfs_31"/>
+        </navPoint>
+        <navPoint id="a3c65218-b9ba-4746-83f5-a3a0b74f522e" playOrder="22">
+            <navLabel>
+                <text>Chapter Twenty TwoCatelyn</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_26.html#cfs_32"/>
+        </navPoint>
+        <navPoint id="69d8707a-93e4-484a-bd4e-494032e66d70" playOrder="23">
+            <navLabel>
+                <text>Chapter Twenty ThreeJon</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_27.html#cfs_33"/>
+        </navPoint>
+        <navPoint id="84abdc73-7bd4-40e2-9b9b-a0d5112dd796" playOrder="24">
+            <navLabel>
+                <text>Chapter Twenty FourTheon</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_28.html#cfs_34"/>
+        </navPoint>
+        <navPoint id="57bdd7f1-ac24-47fd-8a6b-bcde001b73cc" playOrder="25">
+            <navLabel>
+                <text>Chapter Twenty FiveTyrion</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_29.html#cfs_35"/>
+        </navPoint>
+        <navPoint id="e901806f-ab12-43de-a4db-b7b93368e6fd" playOrder="26">
+            <navLabel>
+                <text>Chapter Twenty SixArya</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_30.html#cfs_36"/>
+        </navPoint>
+        <navPoint id="f33978f1-7872-48e3-8b49-dd636c111d6c" playOrder="27">
+            <navLabel>
+                <text>Chapter Twenty SevenDaenerys</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_31.html#cfs_37"/>
+        </navPoint>
+        <navPoint id="7a0ebe11-c903-47af-b369-19a57a793113" playOrder="28">
+            <navLabel>
+                <text>Chapter Twenty EightBran</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_32.html#cfs_38"/>
+        </navPoint>
+        <navPoint id="d65bd0f0-174f-46b6-8143-a4310aa779aa" playOrder="29">
+            <navLabel>
+                <text>Chapter Twenty NineTyrion</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_33.html#cfs_39"/>
+        </navPoint>
+        <navPoint id="53be7a3c-b3bc-4e32-8276-7108f607c0ca" playOrder="30">
+            <navLabel>
+                <text>Chapter ThirtyArya</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_34.html#cfs_40"/>
+        </navPoint>
+        <navPoint id="acd5a508-4939-4982-92fc-23fd1c6dc0e6" playOrder="31">
+            <navLabel>
+                <text>Chapter Thirty OneCatelyn</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_35.html#cfs_41"/>
+        </navPoint>
+        <navPoint id="82237049-db01-48b9-bc29-734f4633567b" playOrder="32">
+            <navLabel>
+                <text>Chapter Thirty TwoSansa</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_36.html#cfs_42"/>
+        </navPoint>
+        <navPoint id="84e11856-d897-422a-8758-d4283cbf2347" playOrder="33">
+            <navLabel>
+                <text>Chapter Thirty ThreeCatelyn</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_37.html#cfs_43"/>
+        </navPoint>
+        <navPoint id="ca8dba41-bb8f-41ed-9040-afc49522e9a2" playOrder="34">
+            <navLabel>
+                <text>Chapter Thirty FourJon</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_38.html#cfs_44"/>
+        </navPoint>
+        <navPoint id="f11ead18-1464-486b-a64f-5c641637f9c6" playOrder="35">
+            <navLabel>
+                <text>Chapter Thirty FiveBran</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_39.html#cfs_45"/>
+        </navPoint>
+        <navPoint id="67b43ed8-6647-4450-9376-788c1371403b" playOrder="36">
+            <navLabel>
+                <text>Chapter Thirty SixTyrion</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_40.html#cfs_46"/>
+        </navPoint>
+        <navPoint id="fb0c41fa-3f52-4d95-8762-e4bb858edf67" playOrder="37">
+            <navLabel>
+                <text>Chapter Thirty SevenTheon</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_41.html#cfs_47"/>
+        </navPoint>
+        <navPoint id="f72b6314-4a68-4a2e-ba84-66ec9076a2da" playOrder="38">
+            <navLabel>
+                <text>Chapter Thirty EightArya</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_42.html#cfs_48"/>
+        </navPoint>
+        <navPoint id="2b7d1fda-8983-4c3e-ad3b-19e5b255b5c1" playOrder="39">
+            <navLabel>
+                <text>Chapter Thirty NineCatelyn</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_43.html#cfs_49"/>
+        </navPoint>
+        <navPoint id="0f4d9e2d-58a5-4624-91a1-de6802991711" playOrder="40">
+            <navLabel>
+                <text>Chapter FortyDaenerys</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_44.html#cfs_50"/>
+        </navPoint>
+        <navPoint id="5b437064-4b85-4f05-aebc-e6a215b6ed7a" playOrder="41">
+            <navLabel>
+                <text>Chapter Forty OneTyrion</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_45.html#cfs_51"/>
+        </navPoint>
+        <navPoint id="a52516b4-2d7b-403f-a019-958a51616fb2" playOrder="42">
+            <navLabel>
+                <text>Chapter Forty TwoDavos</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_46.html#cfs_52"/>
+        </navPoint>
+        <navPoint id="43e90cf8-8fb8-4e6d-8748-72faa37f38b9" playOrder="43">
+            <navLabel>
+                <text>Chapter Forty ThreeJon</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_47.html#cfs_53"/>
+        </navPoint>
+        <navPoint id="985cc084-7aa8-4c0f-aa2b-0c2304846195" playOrder="44">
+            <navLabel>
+                <text>Chapter Forty FourTyrion</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_48.html#cfs_54"/>
+        </navPoint>
+        <navPoint id="ab8174c2-8aec-4e73-b51a-2d8be487905e" playOrder="45">
+            <navLabel>
+                <text>Chapter Forty FiveCatelyn</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_49.html#cfs_55"/>
+        </navPoint>
+        <navPoint id="e789d205-6470-484c-a04f-3a56bb764d12" playOrder="46">
+            <navLabel>
+                <text>Chapter Forty SixBran</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_50.html#cfs_56"/>
+        </navPoint>
+        <navPoint id="365bc23f-0566-43df-b18b-a9c341f3165c" playOrder="47">
+            <navLabel>
+                <text>Chapter Forty SevenArya</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_51.html#cfs_57"/>
+        </navPoint>
+        <navPoint id="458d9656-49bc-4694-8944-8ce397bd75ab" playOrder="48">
+            <navLabel>
+                <text>Chapter Forty EightDaenerys</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_52.html#cfs_58"/>
+        </navPoint>
+        <navPoint id="90fc7a9c-59ca-4d8c-869a-b8bec0c7d897" playOrder="49">
+            <navLabel>
+                <text>Chapter Forty NineTyrion</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_53.html#cfs_59"/>
+        </navPoint>
+        <navPoint id="bafef763-ab85-4581-8378-ab0841e6df3b" playOrder="50">
+            <navLabel>
+                <text>Chapter FiftyTheon</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_54.html#cfs_60"/>
+        </navPoint>
+        <navPoint id="584941be-c3a0-492f-a463-36065247a3a5" playOrder="51">
+            <navLabel>
+                <text>Chapter Fifty OneJon</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_55.html#cfs_61"/>
+        </navPoint>
+        <navPoint id="8699dd21-ada4-44bf-97f9-5576a39abb8c" playOrder="52">
+            <navLabel>
+                <text>Chapter Fifty TwoSansa</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_56.html#cfs_62"/>
+        </navPoint>
+        <navPoint id="0031d2a1-baa8-4838-880e-32f6e21b4e21" playOrder="53">
+            <navLabel>
+                <text>Chapter Fifty ThreeJon</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_57.html#cfs_63"/>
+        </navPoint>
+        <navPoint id="c41bf227-b246-4065-b70e-f14b933479c1" playOrder="54">
+            <navLabel>
+                <text>Chapter Fifty FourTyrion</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_58.html#cfs_64"/>
+        </navPoint>
+        <navPoint id="68f4ada3-2ce6-45ad-aba8-9efa2fc36319" playOrder="55">
+            <navLabel>
+                <text>Chapter Fifty FiveCatelyn</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_59.html#cfs_65"/>
+        </navPoint>
+        <navPoint id="02b61b4e-0712-4944-baef-3ea152adf460" playOrder="56">
+            <navLabel>
+                <text>Chapter Fifty SixTheon</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_60.html#cfs_66"/>
+        </navPoint>
+        <navPoint id="c92f0a04-c608-4945-82ac-f7815635f9d2" playOrder="57">
+            <navLabel>
+                <text>Chapter Fifty SevenSansa</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_61.html#cfs_67"/>
+        </navPoint>
+        <navPoint id="44837529-5d8a-40f1-86af-478d4f0f3324" playOrder="58">
+            <navLabel>
+                <text>Chapter Fifty EightDavos</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_62.html#cfs_68"/>
+        </navPoint>
+        <navPoint id="67b7a1a6-68a2-476e-a3c3-bc6358796844" playOrder="59">
+            <navLabel>
+                <text>Chapter Fifty NineTyrion</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_63.html#cfs_69"/>
+        </navPoint>
+        <navPoint id="f0bd3023-fb6c-434c-9d75-bd9378ced331" playOrder="60">
+            <navLabel>
+                <text>Chapter SixtySansa</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_64.html#cfs_70"/>
+        </navPoint>
+        <navPoint id="e0353464-7db9-40fe-b848-4656d97771bb" playOrder="61">
+            <navLabel>
+                <text>Chapter Sixty OneTyrion</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_65.html#cfs_71"/>
+        </navPoint>
+        <navPoint id="ca0c48eb-75ca-4939-9381-e5a9fcca0aef" playOrder="62">
+            <navLabel>
+                <text>Chapter Sixty TwoSansa</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_66.html#cfs_72"/>
+        </navPoint>
+        <navPoint id="9490c741-de68-4137-9fc8-93cf0957a271" playOrder="63">
+            <navLabel>
+                <text>Chapter Sixty ThreeDaenerys</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_67.html#cfs_73"/>
+        </navPoint>
+        <navPoint id="ade5192c-3af5-4376-9e70-81652f1858f0" playOrder="64">
+            <navLabel>
+                <text>Chapter Sixty FourArya</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_68.html#cfs_74"/>
+        </navPoint>
+        <navPoint id="fe75fbec-713a-48c6-b654-2c6c411921cd" playOrder="65">
+            <navLabel>
+                <text>Chapter Sixty FiveSansa</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_69.html#cfs_75"/>
+        </navPoint>
+        <navPoint id="618edd92-3856-4928-85dd-ac6c7f9ea90b" playOrder="66">
+            <navLabel>
+                <text>Chapter Sixty SixTheon</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_70.html#cfs_76"/>
+        </navPoint>
+        <navPoint id="d9b8ab1a-ead5-4eca-a158-d51fd6b88b90" playOrder="67">
+            <navLabel>
+                <text>Chapter Sixty SevenTyrion</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_71.html#cfs_77"/>
+        </navPoint>
+        <navPoint id="93dd4048-8a66-46f7-b13e-245b95987a04" playOrder="68">
+            <navLabel>
+                <text>Chapter Sixty EightJon</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_72.html#cfs_78"/>
+        </navPoint>
+        <navPoint id="c648610b-4afb-4d66-93ea-a0af47dda696" playOrder="69">
+            <navLabel>
+                <text>Chapter Sixty NineBran</text>
+            </navLabel>
+            <content src="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_73.html#cfs_79"/>
+        </navPoint>
+    </navMap>
+</ncx>

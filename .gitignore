@@ -1,0 +1,31 @@
+﻿# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# pycharm
+.idea/
+
+# 数据库
+*.db
+*.db-journal
+
+# models
+models/
+
+# 文档
+*.pdf
+*.doc
+*.docx
+
+# deprecated files
+rumor_classifiers/res/

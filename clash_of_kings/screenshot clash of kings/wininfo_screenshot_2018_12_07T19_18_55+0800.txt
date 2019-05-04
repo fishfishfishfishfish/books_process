@@ -1,0 +1,31 @@
+
+xwininfo: Window id: 0x51 (the root window) (has no name)
+
+  Root window id: 0x51 (the root window) (has no name)
+  Parent window id: 0x0 (none)
+     25 children:
+     0x12038da "L:D_N:non-centered_ID:com.lab126.booklet.reader_M:dismissible_RD:false_FH:S_RC:false_A:ScrubberPreview_PAIRID:READER.BOOKMARK.PAIRID_ZLB:READER.BOOKMARK.PAIRID": ()  600x800+0+0  +0+0  MapState=IsUnMapped
+     0x1600004 "mesquite": ("mesquite" "Mesquite")  200x200+0+0  +0+0  MapState=IsUnMapped
+        1 child:
+        0x1600005 (has no name): ()  1x1+-1+-1  +-1+-1  MapState=IsUnviewable
+     0x1600001 "mesquite": ("mesquite" "Mesquite")  10x10+10+10  +10+10  MapState=IsUnMapped
+        1 child:
+        0x1600002 (has no name): ()  1x1+-1+-1  +9+9  MapState=IsUnviewable
+     0x12000b0 "L:D_N:quickActions_ID:system_M:dismissible_RD:false_RC:false_KIWI:CVM_CD:true_TAC:search-bar_TAB:menu": ()  600x125+0+29  +0+29  MapState=IsUnMapped
+     0x1400001 "kfxreader": ("kfxreader" "Kfxreader")  10x10+10+10  +10+10  MapState=IsUnMapped
+        1 child:
+        0x1400002 (has no name): ()  1x1+-1+-1  +9+9  MapState=IsUnviewable
+     0x1000004 "webreader": ("webreader" "Webreader")  200x200+0+0  +0+0  MapState=IsUnMapped
+        1 child:
+        0x1000005 (has no name): ()  1x1+-1+-1  +-1+-1  MapState=IsUnviewable
+     0x1000001 "webreader": ("webreader" "Webreader")  10x10+10+10  +10+10  MapState=IsUnMapped
+        1 child:
+        0x1000002 (has no name): ()  1x1+-1+-1  +9+9  MapState=IsUnviewable
+     0xe00001 "kb": ("kb" "Kb")  10x10+10+10  +10+10  MapState=IsUnMapped
+        1 child:
+        0xe00002 (has no name): ()  1x1+-1+-1  +9+9  MapState=IsUnviewable
+     0xc00001 "pillowd": ("pillowd" "Pillowd")  10x10+10+10  +10+10  MapState=IsUnMapped
+        1 child:
+        0xc00002 (has no name): ()  1x1+-1+-1  +9+9  MapState=IsUnviewable
+     0x400002 "L:SS_N:screenSaver_FH:F_module:screensaver_ID:blanket-screensaver_FS:F_O:U": ()  600x800+0+0  +0+0  MapState=IsUnMapped
+     0x12038de

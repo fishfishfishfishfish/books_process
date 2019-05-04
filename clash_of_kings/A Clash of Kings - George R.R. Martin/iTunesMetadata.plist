@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>artistName</key>
+	<string>George R.R. Martin</string>
+	<key>book-info</key>
+	<dict>
+		<key>package-file-hash</key>
+		<string>960EDEBF51F8FEBB5F96C37676BB946D</string>
+		<key>publisher-unique-id</key>
+		<string>6920a802-7846-4217-af68-b7b338eb26d5</string>
+		<key>unique-id</key>
+		<integer>5979049628970825698</integer>
+	</dict>
+	<key>itemName</key>
+	<string>A Clash of Kings</string>
+	<key>playlistName</key>
+	<string>A Clash of Kings</string>
+	<key>releaseDate</key>
+	<string>2009-05-19T18:02:16</string>
+	<key>sort-artist</key>
+	<string>Martin, George R.R.</string>
+	<key>sort-artist-status</key>
+	<integer>3</integer>
+</dict>
+</plist>

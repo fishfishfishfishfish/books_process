@@ -1,0 +1,51 @@
+
+xwininfo: Window id: 0x51 (the root window) (has no name)
+
+  Root window id: 0x51 (the root window) (has no name)
+  Parent window id: 0x0 (none)
+     24 children:
+     0x1600004 "mesquite": ("mesquite" "Mesquite")  200x200+0+0  +0+0  MapState=IsUnMapped
+        1 child:
+        0x1600005 (has no name): ()  1x1+-1+-1  +-1+-1  MapState=IsUnviewable
+     0x1600001 "mesquite": ("mesquite" "Mesquite")  10x10+10+10  +10+10  MapState=IsUnMapped
+        1 child:
+        0x1600002 (has no name): ()  1x1+-1+-1  +9+9  MapState=IsUnviewable
+     0x12000b0 "L:D_N:quickActions_ID:system_M:dismissible_RD:false_RC:false_KIWI:CVM_CD:true_TAC:search-bar_TAB:menu": ()  600x125+0+29  +0+29  MapState=IsUnMapped
+     0x1400001 "kfxreader": ("kfxreader" "Kfxreader")  10x10+10+10  +10+10  MapState=IsUnMapped
+        1 child:
+        0x1400002 (has no name): ()  1x1+-1+-1  +9+9  MapState=IsUnviewable
+     0x1000004 "webreader": ("webreader" "Webreader")  200x200+0+0  +0+0  MapState=IsUnMapped
+        1 child:
+        0x1000005 (has no name): ()  1x1+-1+-1  +-1+-1  MapState=IsUnviewable
+     0x1000001 "webreader": ("webreader" "Webreader")  10x10+10+10  +10+10  MapState=IsUnMapped
+        1 child:
+        0x1000002 (has no name): ()  1x1+-1+-1  +9+9  MapState=IsUnviewable
+     0xe00001 "kb": ("kb" "Kb")  10x10+10+10  +10+10  MapState=IsUnMapped
+        1 child:
+        0xe00002 (has no name): ()  1x1+-1+-1  +9+9  MapState=IsUnviewable
+     0xc00001 "pillowd": ("pillowd" "Pillowd")  10x10+10+10  +10+10  MapState=IsUnMapped
+        1 child:
+        0xc00002 (has no name): ()  1x1+-1+-1  +9+9  MapState=IsUnviewable
+     0x400002 "L:SS_N:screenSaver_FH:F_module:screensaver_ID:blanket-screensaver_FS:F_O:U": ()  600x800+0+0  +0+0  MapState=IsUnMapped
+     0x120013d "L:A_N:application_ID:com.lab126.booklet.reader_M:false_PC:N_RC:true_WT:true_ASR:true_O:URL_WTNB:true_WTPB:true_S:-2_DM:N": ()  600x800+0+0  +0+0  MapState=IsViewable
+     0x12000b9 "L:A_N:application_ID:com.lab126.booklet.home_M:false_PC:TS_RC:true_WT:true_ASR:true_O:U_WTNB:false_WTPB:false": ()  600x709+0+91  +0+91  MapState=IsUnMapped
+     0x120010a "L:A_N:application_ID:com.lab126.booklet.settings_M:false_PC:TS_RC:true_ASR:true_O:U": ()  600x709+0+91  +0+91  MapState=IsUnMapped
+     0x400005 "L:A_N:application_module:blankwindow_ID:blankBackground_WS:true": ()  600x800+0+0  +0+0  MapState=IsViewable
+     0x1200186 "L:C_N:topBar_BARTYPE:A_ID:com.lab126.booklet.reader_M:false_RC:true": ()  600x66+0+91  +0+91  MapState=IsViewable
+     0x1200336 "L:C_N:footerBar_ID:com.lab126.booklet.reader_M:false_RC:true_PAIRID:READER.SCRUBBER.PAIRID_NKF:true": ()  600x153+0+647  +0+647  MapState=IsViewable
+     0x120008e "L:C_N:searchBar_ID:system_RC:true_KIWI:CVM": ()  600x59+0+32  +0+32  MapState=IsViewable
+     0x120003e "L:C_N:titleBar_ID:system_RC:true_KIWI:CVM": ()  600x32+0+0  +0+0  MapState=IsViewable
+     0x1200190 "L:D_N:non-centered_ID:com.lab126.booklet.reader_M:dismissible_RD:false_FH:F_CD:true_TAC:search-bar_TAB:menu_RC:false_HIDE:background_BS:true_A:KindleMenu": ()  216x328+377+96  +377+96  MapState=IsViewable
+     0x1200094 "L:D_N:non-centered_ID:system_M:false_RD:false_FH:F_RC:custom_BW:1_RCTL:0_RCTR:0_RCBL:0_RCBR:0_NKF:true_HIDE:background_BS:true_A:SearchResults_KIWI:CVM_SHOWT1:50_RKB:abc": ()  600x800+0+0  +0+0  MapState=IsViewable
+     0x100003d "webreader": ("webreader" "Webreader")  800x800+0+0  +0+0  MapState=IsViewable
+        1 child:
+        0x100003e (has no name): ()  1x1+-1+-1  +-1+-1  MapState=IsViewable
+     0x100003a "webreader": ("webreader" "Webreader")  200x200+0+0  +0+0  MapState=IsViewable
+        1 child:
+        0x100003b (has no name): ()  1x1+-1+-1  +-1+-1  MapState=IsViewable
+     0xe00003 "L:KB_N:keyboard_DMINSETRIGHT:5_DM:KB_DMINSETLEFT:5_KBS:H_DMINSETTOP:43_LanH:275_PorH:275_DMINSETBOTTOM:5": ("kb" "Kb")  600x275+0+525  +0+525  MapState=IsViewable
+        1 child:
+        0xe00004 (has no name): ()  1x1+-1+-1  +-1+524  MapState=IsViewable
+     0x600001 (has no name): ()  1x1+-1+-1  +-1+-1  MapState=IsUnMapped
+     0x600000 (has no name): ()  1x1+-1+-1  +-1+-1  MapState=IsUnMapped
+

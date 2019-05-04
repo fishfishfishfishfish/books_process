@@ -1,0 +1,221 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="calibre_id">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata">
+        <dc:creator opf:role="aut" opf:file-as="Martin, George R.R.">George R.R. Martin</dc:creator>
+<dc:title>A Clash of Kings</dc:title>
+        <dc:contributor opf:role="bkp" opf:file-as="calibre">calibre (0.5.12) [http://calibre.kovidgoyal.net]</dc:contributor>
+        <dc:identifier opf:scheme="calibre" id="calibre_id">6920a802-7846-4217-af68-b7b338eb26d5</dc:identifier>
+        <dc:date>2009-05-19 18:02:16-07:00</dc:date>
+        <dc:language>UND</dc:language>
+        <dc:description>EDITORIAL REVIEW:
+
+Here is the second volume in GEORGE R. R. MARTIN’S magnificent cycle of novels that includes **A Game of Thrones** and **A Storm of Swords**. As a whole, this series comprises a genuine masterpiece of modern fantasy, bringing together the best the genre has to offer. Magic, mystery, intrigue, romance, and adventure fill these pages and transport us to a world unlike any we have ever experienced. Already hailed as a classic, GEORGE R. R. MARTIN’S stunning series is destined to stand as one of the great achievements of imaginative fiction.**A CLASH OF KINGS**A comet the color of blood and flame cuts across the sky. Two great leaders—Lord Eddard Stark and Robert Baratheon—who hold sway over an age of enforced peace are dead, victims of royal treachery. Now, from the ancient citadel of Dragonstone to the forbidding shores of Winterfell, chaos reigns. Six factions struggle for control of a divided land and the Iron Throne of the Seven Kingdoms, preparing to stake their claims through tempest, turmoil, and war. It is a tale in which brother plots against brother and the dead rise to walk in the night. Here a princess masquerades as an orphan boy; a knight of the mind prepares a poison for a treacherous sorceress; and wild men descend from the Mountains of the Moon to ravage the countryside. Against a backdrop of incest and fratricide, alchemy and murder, victory may go to the men and women possessed of the coldest steel...and the coldest hearts. For when kings clash, the whole land trembles.
+
+</dc:description>
+        <dc:publisher>Spectra</dc:publisher>
+        <dc:identifier opf:scheme="ISBN">0553381695</dc:identifier>
+        <meta name="calibre:series" content="A Song of Ice and Fire"/>
+        <meta name="calibre:series_index" content="2.0"/>
+        <meta name="calibre:rating" content="9"/>
+    <dc:subject>Fantasy fiction</dc:subject>
+<dc:subject>Fantasy</dc:subject>
+<dc:subject>Fiction</dc:subject>
+<dc:subject>General</dc:subject>
+<dc:subject>Fantasy - Epic</dc:subject>
+<dc:subject>Epic</dc:subject>
+<dc:subject>Fiction - Fantasy</dc:subject>
+<dc:subject>Fantasy - Series</dc:subject>
+<dc:subject>Imaginary places</dc:subject>
+<dc:subject>Civil war</dc:subject>
+</metadata>
+    <manifest>
+        <item id="id1" href="content/calibre_title_page.html" media-type="application/xhtml+xml"/>
+        <item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_0.html" id="id2.1" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_1.html" id="id2.2" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_2.html" id="id2.3" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_3.html" id="id2.4" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_4.html" id="id2.5" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_5.html" id="id2.6" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_6.html" id="id2.7" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_7.html" id="id2.8" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_8.html" id="id2.9" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_9.html" id="id2.10" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_10.html" id="id2.11" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_11.html" id="id2.12" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_12.html" id="id2.13" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_13.html" id="id2.14" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_14.html" id="id2.15" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_15.html" id="id2.16" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_16.html" id="id2.17" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_17.html" id="id2.18" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_18.html" id="id2.19" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_19.html" id="id2.20" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_20.html" id="id2.21" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_21.html" id="id2.22" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_22.html" id="id2.23" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_23.html" id="id2.24" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_24.html" id="id2.25" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_25.html" id="id2.26" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_26.html" id="id2.27" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_27.html" id="id2.28" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_28.html" id="id2.29" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_29.html" id="id2.30" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_30.html" id="id2.31" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_31.html" id="id2.32" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_32.html" id="id2.33" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_33.html" id="id2.34" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_34.html" id="id2.35" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_35.html" id="id2.36" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_36.html" id="id2.37" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_37.html" id="id2.38" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_38.html" id="id2.39" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_39.html" id="id2.40" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_40.html" id="id2.41" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_41.html" id="id2.42" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_42.html" id="id2.43" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_43.html" id="id2.44" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_44.html" id="id2.45" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_45.html" id="id2.46" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_46.html" id="id2.47" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_47.html" id="id2.48" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_48.html" id="id2.49" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_49.html" id="id2.50" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_50.html" id="id2.51" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_51.html" id="id2.52" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_52.html" id="id2.53" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_53.html" id="id2.54" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_54.html" id="id2.55" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_55.html" id="id2.56" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_56.html" id="id2.57" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_57.html" id="id2.58" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_58.html" id="id2.59" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_59.html" id="id2.60" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_60.html" id="id2.61" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_61.html" id="id2.62" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_62.html" id="id2.63" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_63.html" id="id2.64" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_64.html" id="id2.65" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_65.html" id="id2.66" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_66.html" id="id2.67" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_67.html" id="id2.68" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_68.html" id="id2.69" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_69.html" id="id2.70" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_70.html" id="id2.71" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_71.html" id="id2.72" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_72.html" id="id2.73" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_73.html" id="id2.74" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_74.html" id="id2.75" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_75.html" id="id2.76" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_76.html" id="id2.77" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_77.html" id="id2.78" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_78.html" id="id2.79" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_79.html" id="id2.80" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_80.html" id="id2.81" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_81.html" id="id2.82" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_82.html" id="id2.83" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_83.html" id="id2.84" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_84.html" id="id2.85" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_85.html" id="id2.86" media-type="application/xhtml+xml"/>
+		<item href="content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_86.html" id="id2.87" media-type="application/xhtml+xml"/>
+		<item id="id3" href="content/resources/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_calibre_0.css" media-type="text/css"/>
+        <item id="id4" href="content/resources/image004_1.jpg" media-type="image/jpeg"/>
+        <item id="id5" href="content/resources/image002_0.jpg" media-type="image/jpeg"/>
+        <item id="id6" href="content/resources/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_calibre_2.css" media-type="text/css"/>
+        <item id="id7" href="content/resources/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_calibre_1.css" media-type="text/css"/>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="content/resources/_cover_.jpg" id="id2" media-type="image/jpeg"/>
+		</manifest>
+    <spine toc="ncx">
+        <itemref idref="id1"/>
+        <itemref idref="id2.1"/>
+		<itemref idref="id2.2"/>
+		<itemref idref="id2.3"/>
+		<itemref idref="id2.4"/>
+		<itemref idref="id2.5"/>
+		<itemref idref="id2.6"/>
+		<itemref idref="id2.7"/>
+		<itemref idref="id2.8"/>
+		<itemref idref="id2.9"/>
+		<itemref idref="id2.10"/>
+		<itemref idref="id2.11"/>
+		<itemref idref="id2.12"/>
+		<itemref idref="id2.13"/>
+		<itemref idref="id2.14"/>
+		<itemref idref="id2.15"/>
+		<itemref idref="id2.16"/>
+		<itemref idref="id2.17"/>
+		<itemref idref="id2.18"/>
+		<itemref idref="id2.19"/>
+		<itemref idref="id2.20"/>
+		<itemref idref="id2.21"/>
+		<itemref idref="id2.22"/>
+		<itemref idref="id2.23"/>
+		<itemref idref="id2.24"/>
+		<itemref idref="id2.25"/>
+		<itemref idref="id2.26"/>
+		<itemref idref="id2.27"/>
+		<itemref idref="id2.28"/>
+		<itemref idref="id2.29"/>
+		<itemref idref="id2.30"/>
+		<itemref idref="id2.31"/>
+		<itemref idref="id2.32"/>
+		<itemref idref="id2.33"/>
+		<itemref idref="id2.34"/>
+		<itemref idref="id2.35"/>
+		<itemref idref="id2.36"/>
+		<itemref idref="id2.37"/>
+		<itemref idref="id2.38"/>
+		<itemref idref="id2.39"/>
+		<itemref idref="id2.40"/>
+		<itemref idref="id2.41"/>
+		<itemref idref="id2.42"/>
+		<itemref idref="id2.43"/>
+		<itemref idref="id2.44"/>
+		<itemref idref="id2.45"/>
+		<itemref idref="id2.46"/>
+		<itemref idref="id2.47"/>
+		<itemref idref="id2.48"/>
+		<itemref idref="id2.49"/>
+		<itemref idref="id2.50"/>
+		<itemref idref="id2.51"/>
+		<itemref idref="id2.52"/>
+		<itemref idref="id2.53"/>
+		<itemref idref="id2.54"/>
+		<itemref idref="id2.55"/>
+		<itemref idref="id2.56"/>
+		<itemref idref="id2.57"/>
+		<itemref idref="id2.58"/>
+		<itemref idref="id2.59"/>
+		<itemref idref="id2.60"/>
+		<itemref idref="id2.61"/>
+		<itemref idref="id2.62"/>
+		<itemref idref="id2.63"/>
+		<itemref idref="id2.64"/>
+		<itemref idref="id2.65"/>
+		<itemref idref="id2.66"/>
+		<itemref idref="id2.67"/>
+		<itemref idref="id2.68"/>
+		<itemref idref="id2.69"/>
+		<itemref idref="id2.70"/>
+		<itemref idref="id2.71"/>
+		<itemref idref="id2.72"/>
+		<itemref idref="id2.73"/>
+		<itemref idref="id2.74"/>
+		<itemref idref="id2.75"/>
+		<itemref idref="id2.76"/>
+		<itemref idref="id2.77"/>
+		<itemref idref="id2.78"/>
+		<itemref idref="id2.79"/>
+		<itemref idref="id2.80"/>
+		<itemref idref="id2.81"/>
+		<itemref idref="id2.82"/>
+		<itemref idref="id2.83"/>
+		<itemref idref="id2.84"/>
+		<itemref idref="id2.85"/>
+		<itemref idref="id2.86"/>
+		<itemref idref="id2.87"/>
+		</spine>
+<guide>
+        <reference href="content/calibre_title_page.html" type="cover" title="Cover"/>
+</guide>
+</package>
