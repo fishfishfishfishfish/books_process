@@ -17,6 +17,11 @@ SentenceTable = "CREATE TABLE %s (" \
                 "sentence TEXT" \
                 ");"
 
+QueryTable = "CREATE TABLE %s (" \
+             "id INTEGER PRIMARY KEY AUTOINCREMENT," \
+             "query TEXT" \
+             ");"
+
 
 def create_table(db_name: str, create_sql: str, table_name=None):
     try:

@@ -59,6 +59,8 @@ def strip_non_words(text: str):
     :param text:
     :return:
     """
+    if type(text) != str:
+        return text
     text = re.sub(r"\W+$", "", text)
     text = re.sub(r"^\W+", "", text)
     return text
