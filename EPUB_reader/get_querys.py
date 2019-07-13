@@ -33,6 +33,22 @@ def from_csv(path: str, col_index, sort_key_col=None, index=False):
     return res
 
 
+def dangdang_to_csv(dangdang_path: str, csv_path: str):
+    res_dict = {"highlight": [], "note": []}
+    with open(dangdang_path, encoding="UTF-8") as f:
+        line = f.readline()
+        while line:
+            res_dict["highlight"].append(line.strip())
+            line = f.readline()
+            res_dict["note"].append(line[6:].strip())
+            line = f.readline()
+    res = pandas.DataFrame(res_dict)
+    res.to_csv(csv_path, index=False)
+
+
 if __name__ == "__main__":
-    Queries1 = from_csv("datafield/A Clash of Kings_clipplings.csv", [0, 3], sort_key_col=3)
-    Queries2 = from_csv("datafield/A Clash of Kings_clipplings.csv", ["内容▲", "位置", "日期"], sort_key_col=["位置", "日期"])
+    # Queries1 = from_csv("datafield/A Clash of Kings_clipplings.csv", [0, 3], sort_key_col=3)
+    # Queries2 = from_csv("datafield/A Clash of Kings_clipplings.csv", ["内容▲", "位置", "日期"], sort_key_col=["位置", "日期"])
+    DangPath = "datafield/dangdang_user_Download_A Storm of Swords - George R_ R_ Martin_mobi_.txt"
+    CsvPath = "datafield/A Storm of Swords - George R_ R_ Martin_mobi_clip.csv"
+    dangdang_to_csv(DangPath, CsvPath)

@@ -17,10 +17,16 @@ SentenceTable = "CREATE TABLE %s (" \
                 "sentence TEXT" \
                 ");"
 
-QueryTable = "CREATE TABLE %s (" \
-             "id INTEGER PRIMARY KEY AUTOINCREMENT," \
-             "query TEXT" \
-             ");"
+HighLightTable = "CREATE TABLE %s (" \
+                 "id INTEGER PRIMARY KEY AUTOINCREMENT," \
+                 "highlight TEXT," \
+                 "note TEXT" \
+                 ");"
+
+MeaningTable = "CREATE TABLE %s (" \
+               "id INTEGER PRIMARY KEY AUTOINCREMENT," \
+               "meaning TEXT" \
+               ");"
 
 
 def create_table(db_name: str, create_sql: str, table_name=None):

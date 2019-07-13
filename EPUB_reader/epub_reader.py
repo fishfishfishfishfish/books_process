@@ -64,6 +64,7 @@ class EPUBReader:
                                         (chapter_id, cur.lastrowid))
                             break
                     except:
+                        print(f"chapter{chapter_id} error")
                         pass
         print("got chapter %s" % str(chapter_id))
 

@@ -1,0 +1,14 @@
+[ERROR][__exit__][2019-07-05 11:17:17,812]table metadata already exists
+[ERROR][__exit__][2019-07-05 11:17:17,937]UNIQUE constraint failed: metadata.name, metadata.value
+[ERROR][__exit__][2019-07-05 12:19:25,185]near ")": syntax error
+[ERROR][__exit__][2019-07-05 12:19:25,248]no such table: note
+[ERROR][__exit__][2019-07-05 13:46:11,034]near ")": syntax error
+[ERROR][__exit__][2019-07-05 13:46:11,097]no such table: highlight
+[ERROR][__exit__][2019-07-05 17:53:25,444]no such table: note
+[ERROR][__exit__][2019-07-05 18:10:45,999]table meaning already exists
+[ERROR][__exit__][2019-07-05 18:10:45,999]table highlight_meaning_relation already exists
+[ERROR][__exit__][2019-07-05 18:11:56,159]table meaning already exists
+[ERROR][__exit__][2019-07-05 18:11:56,159]table highlight_meaning_relation already exists
+[ERROR][__exit__][2019-07-05 18:11:57,425]Incorrect number of bindings supplied. The current statement uses 1, and there are 15 supplied.
+[ERROR][__exit__][2019-07-05 18:13:59,978]table meaning already exists
+[ERROR][__exit__][2019-07-05 18:13:59,978]table highlight_meaning_relation already exists
