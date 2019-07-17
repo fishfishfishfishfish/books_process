@@ -1,3 +1,4 @@
+import re
 import tkinter
 from tkinter import ttk
 from tkinter import filedialog
@@ -11,8 +12,13 @@ class TKContext:
         self.colors = ["#E0E3DA", "#FFFFFF"]
         self.window = tkinter.Tk()
         self.db_name = tkinter.StringVar()
-        self.cur_highlight = tkinter.StringVar()
+        # 标记的相关记录数据
+        self.highlight_num = 0
         self.cur_highlight_id = 1
+        self.cur_highlight = tkinter.StringVar()
+        self.cur_highlight_id_str = tkinter.StringVar()
+        # 与标记相关句子相关的记录数据
+        self.cur_sentence_id_str = tkinter.StringVar()
         self.cur_sentence_ids = []
         self.cur_sentence_id_idx = 0  # 当前句子在cur_sentence_ids中的序号
         # 选取文件路径
@@ -27,9 +33,17 @@ class TKContext:
                                               selectmode="browse", height=28)
         self.content_vbar = ttk.Scrollbar(self.window, orient=tkinter.VERTICAL, command=self.content_tree_view.yview)
         # 显示当前标记
-        self.highlight_label = ttk.Label(self.window, textvariable=self.cur_highlight, justify="left", background="white")
+        self.highlight_num_label = ttk.Label(self.window, textvariable=self.cur_highlight_id_str,
+                                             justify="left", width=10, background="white")
+        self.highlight_label = ttk.Label(self.window, textvariable=self.cur_highlight,
+                                         justify="left", width=20, background="white")
         self.last_highlight_btn = tkinter.Button(self.window, text="last highlight", command=self.last_highlight)
         self.next_highlight_btn = tkinter.Button(self.window, text="next highlight", command=self.next_highlight)
+        # 控制选中的句子
+        self.sentence_num_label = ttk.Label(self.window, textvariable=self.cur_sentence_id_str,
+                                            justify="left", width=10, background="white")
+        self.last_sentence_btn = tkinter.Button(self.window, text="last sentence", command=self.last_sentence)
+        self.next_sentence_btn = tkinter.Button(self.window, text="next sentence", command=self.next_sentence)
 
     def config_wigets(self):
         # 图书内容列表
@@ -49,14 +63,21 @@ class TKContext:
         self.content_tree_view.grid(row=3, column=1, columnspan=6, rowspan=50, pady=10, sticky="e")
         self.content_vbar.grid(row=3, column=7, pady=10, rowspan=50, sticky="nsw")
         # 显示当前标记
-        self.highlight_label.grid(row=3, column=9, columnspan=2, pady=10, sticky="w")
+        self.highlight_num_label.grid(row=3, column=9, pady=10, sticky="w")
+        self.highlight_label.grid(row=3, column=10, columnspan=3, pady=10, sticky="w")
         self.last_highlight_btn.grid(row=4, column=9, pady=5, sticky="w")
         self.next_highlight_btn.grid(row=4, column=10, pady=5)
+        # 控制当前选中句子
+        self.sentence_num_label.grid(row=5, column=11, pady=10, sticky="w")
+        self.last_sentence_btn.grid(row=5, column=9, pady=5, sticky="w")
+        self.next_sentence_btn.grid(row=5, column=10, pady=5)
 
     def get_db_name(self):
         self.db_name.set(filedialog.askopenfilename())
         self.get_book_content()
-        self.cur_highlight.set(self.get_cur_highlight()[1])
+        self.cur_highlight.set(self.get_cur_highlight())
+        self.highlight_num = self.get_highlight_num()
+        self.cur_highlight_id_str.set(f"{self.cur_highlight_id}/{self.highlight_num}")
         self.cur_sentence_ids = self.get_cur_related_sentences()
         self.mark_cur_sentence()
 
@@ -76,26 +97,35 @@ class TKContext:
                 self.content_tree_view.insert("", "end", values=[item[1], item[2]], iid=item[0], tags=[f"type{tag}"])
                 tag = (tag + 1) % 2
 
+    def get_highlight_num(self):
+        with utils_sqlite.sqlite_shell(self.db_name.get()) as cur:
+            cur.execute(f"""
+                        SELECT COUNT(*) FROM highlight;
+                        """)
+            return cur.fetchone()[0]
+
     def get_cur_highlight(self):
         with utils_sqlite.sqlite_shell(self.db_name.get()) as cur:
             cur.execute(f"""
-                        SELECT id, highlight FROM highlight where id = {self.cur_highlight_id};
+                        SELECT highlight FROM highlight where id = {self.cur_highlight_id};
                         """)
-            return cur.fetchone()
+            return cur.fetchone()[0]
+
+    def change_highlight(self):
+        self.cur_highlight.set(self.get_cur_highlight())
+        self.cur_highlight_id_str.set(f"{self.cur_highlight_id}/{self.highlight_num}")
+        self.cur_sentence_ids = self.get_cur_related_sentences()
+        self.mark_cur_sentence()
 
     def last_highlight(self):
-        self.cur_highlight_id = self.cur_highlight_id - 1 if self.cur_highlight_id > 1 else 1
-        self.cur_highlight.set(self.get_cur_highlight()[1])
-        self.cur_sentence_ids = self.get_cur_related_sentences()
-        self.mark_cur_sentence()
+        self.cur_highlight_id = (self.cur_highlight_id - 1) % self.highlight_num + 1
+        print(self.cur_highlight_id)
+        self.change_highlight()
 
     def next_highlight(self):
-        self.cur_highlight_id = self.cur_highlight_id + 1
-        if self.get_cur_highlight() is None:
-            self.cur_highlight_id = self.cur_highlight_id - 1
-        self.cur_highlight.set(self.get_cur_highlight()[1])
-        self.cur_sentence_ids = self.get_cur_related_sentences()
-        self.mark_cur_sentence()
+        self.cur_highlight_id = (self.cur_highlight_id + 1) % self.highlight_num + 1
+        print(self.cur_highlight_id)
+        self.change_highlight()
 
     def get_cur_related_sentences(self):
         self.cur_sentence_id_idx = 0
@@ -113,6 +143,16 @@ class TKContext:
                             """)
                 res = [s[0] for s in cur]
             return res
+
+    def last_sentence(self):
+        self.cur_sentence_id_idx = (self.cur_sentence_id_idx - 1) % len(self.cur_sentence_ids)
+        self.cur_sentence_id_str.set(f"{self.cur_sentence_id_idx}/{len(self.cur_sentence_ids)}")
+        self.mark_cur_sentence()
+
+    def next_sentence(self):
+        self.cur_sentence_id_idx = (self.cur_sentence_id_idx + 1) % len(self.cur_sentence_ids)
+        self.cur_sentence_id_str.set(f"{self.cur_sentence_id_idx}/{len(self.cur_sentence_ids)}")
+        self.mark_cur_sentence()
 
     def mark_cur_sentence(self):
         self.content_tree_view.selection_set(self.cur_sentence_ids[self.cur_sentence_id_idx])
