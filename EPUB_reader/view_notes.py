@@ -36,7 +36,7 @@ class TKContext:
         self.highlight_num_label = ttk.Label(self.window, textvariable=self.cur_highlight_id_str,
                                              justify="left", width=10, background="white")
         self.highlight_label = ttk.Label(self.window, textvariable=self.cur_highlight,
-                                         justify="left", width=20, background="white")
+                                         justify="left", width=60, background="white")
         self.last_highlight_btn = tkinter.Button(self.window, text="last highlight", command=self.last_highlight)
         self.next_highlight_btn = tkinter.Button(self.window, text="next highlight", command=self.next_highlight)
         # 控制选中的句子
@@ -44,6 +44,12 @@ class TKContext:
                                             justify="left", width=10, background="white")
         self.last_sentence_btn = tkinter.Button(self.window, text="last sentence", command=self.last_sentence)
         self.next_sentence_btn = tkinter.Button(self.window, text="next sentence", command=self.next_sentence)
+        # 例句显示框
+        self.sentence_disp_label = ttk.Label(self.window, text="sentences example: ",
+                                             justify="left")
+        self.sentence_disp = tkinter.Text(self.window, height=20)
+        self.sentence_disp_vbar = ttk.Scrollbar(self.window, orient=tkinter.VERTICAL,
+                                                command=self.sentence_disp.yview)
 
     def config_wigets(self):
         # 图书内容列表
@@ -54,6 +60,8 @@ class TKContext:
         self.content_tree_view.tag_configure("type0", foreground="black", background=self.colors[0])
         self.content_tree_view.tag_configure("type1", foreground="black", background=self.colors[1])
         self.content_tree_view.configure(yscrollcommand=self.content_vbar.set)
+        # 例句显示框
+        self.sentence_disp.configure(yscrollcommand=self.sentence_disp_vbar.set)
 
     def grid_wigets(self):
         # 选取文件路径
@@ -71,6 +79,13 @@ class TKContext:
         self.sentence_num_label.grid(row=5, column=11, pady=10, sticky="w")
         self.last_sentence_btn.grid(row=5, column=9, pady=5, sticky="w")
         self.next_sentence_btn.grid(row=5, column=10, pady=5)
+        # 例句显示框
+        self.sentence_disp_label.grid(row=6, column=9, pady=10, sticky="w")
+        self.sentence_disp.grid(row=7, column=9, columnspan=4, pady=10, sticky="e")
+        self.sentence_disp_vbar.grid(row=7, column=13, sticky="ns")
+
+    def bind_action(self):
+        self.content_tree_view.bind("<<TreeviewSelect>>", self.insert_selected_sentence)
 
     def get_db_name(self):
         self.db_name.set(filedialog.askopenfilename())
@@ -118,18 +133,17 @@ class TKContext:
         self.mark_cur_sentence()
 
     def last_highlight(self):
-        self.cur_highlight_id = (self.cur_highlight_id - 1) % self.highlight_num + 1
+        self.cur_highlight_id = (self.cur_highlight_id - 2) % self.highlight_num + 1
         print(self.cur_highlight_id)
         self.change_highlight()
 
     def next_highlight(self):
-        self.cur_highlight_id = (self.cur_highlight_id + 1) % self.highlight_num + 1
+        self.cur_highlight_id = self.cur_highlight_id % self.highlight_num + 1
         print(self.cur_highlight_id)
         self.change_highlight()
 
     def get_cur_related_sentences(self):
         self.cur_sentence_id_idx = 0
-        res = []
         with utils_sqlite.sqlite_shell(self.db_name.get()) as cur:
             cur.execute(f"""
                         select id from sentence where sentence like "% {self.cur_highlight.get()} %" 
@@ -145,22 +159,32 @@ class TKContext:
             return res
 
     def last_sentence(self):
-        self.cur_sentence_id_idx = (self.cur_sentence_id_idx - 1) % len(self.cur_sentence_ids)
-        self.cur_sentence_id_str.set(f"{self.cur_sentence_id_idx}/{len(self.cur_sentence_ids)}")
+        if len(self.cur_sentence_ids) > 0:
+            self.cur_sentence_id_idx = (self.cur_sentence_id_idx - 1) % len(self.cur_sentence_ids)
         self.mark_cur_sentence()
 
     def next_sentence(self):
-        self.cur_sentence_id_idx = (self.cur_sentence_id_idx + 1) % len(self.cur_sentence_ids)
-        self.cur_sentence_id_str.set(f"{self.cur_sentence_id_idx}/{len(self.cur_sentence_ids)}")
+        if len(self.cur_sentence_ids) > 0:
+            self.cur_sentence_id_idx = (self.cur_sentence_id_idx + 1) % len(self.cur_sentence_ids)
         self.mark_cur_sentence()
 
     def mark_cur_sentence(self):
-        self.content_tree_view.selection_set(self.cur_sentence_ids[self.cur_sentence_id_idx])
-        self.content_tree_view.see(self.cur_sentence_ids[self.cur_sentence_id_idx])
+        if len(self.cur_sentence_ids) > 0:
+            self.cur_sentence_id_str.set(f"{self.cur_sentence_id_idx + 1}/{len(self.cur_sentence_ids)}")
+            self.content_tree_view.selection_set(self.cur_sentence_ids[self.cur_sentence_id_idx])
+            self.content_tree_view.focus(self.cur_sentence_ids[self.cur_sentence_id_idx])
+            self.content_tree_view.see(self.cur_sentence_ids[self.cur_sentence_id_idx])
+        else:
+            self.cur_sentence_id_str.set("no result")
+
+    def insert_selected_sentence(self, event):
+        content = self.content_tree_view.item(self.content_tree_view.selection())["values"]
+        self.sentence_disp.insert("insert", content[0] + " --" + content[1] + "\n")
 
 
 if __name__ == "__main__":
     TKC = TKContext()
     TKC.config_wigets()
     TKC.grid_wigets()
+    TKC.bind_action()
     TKC.window.mainloop()
