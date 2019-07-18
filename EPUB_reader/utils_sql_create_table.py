@@ -28,6 +28,14 @@ MeaningTable = "CREATE TABLE %s (" \
                "meaning TEXT" \
                ");"
 
+ResultTable = "CREATE TABLE %s (" \
+               "id INTEGER PRIMARY KEY AUTOINCREMENT," \
+               "highlight TEXT," \
+               "meaning TEXT," \
+               "sentences TEXT," \
+               "remarks TEXT" \
+               ");"
+
 
 def create_table(db_name: str, create_sql: str, table_name=None):
     try:

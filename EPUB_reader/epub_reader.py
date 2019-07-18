@@ -49,11 +49,7 @@ class EPUBReader:
 
         with utils_zipfile.zipfile_shell(self.filename, chapter_filename) as chapter_file:
             content_data = utils_xml.find_text_by_id(chapter_file, chapter_node_id)
-        sentences_list = [s for s in utils_text_preprocess.cut_sentence(content_data)]
-        # 分隔符加入前面的句子
-        if len(sentences_list) % 2:
-            sentences_list.append("")
-        sentences_list = [("".join(s), ) for s in zip(sentences_list[0::2], sentences_list[1::2])]
+        sentences_list = [(s,) for s in utils_text_preprocess.cut_sentence(content_data)]
         for sentence in sentences_list:
             if sentence[0] != "":
                 while True:
