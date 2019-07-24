@@ -5,9 +5,9 @@ import os
 
 fname = time.strftime("%Y-%m-%d", time.localtime()) + ".log"
 f = open(fname, 'a')
-last=pyperclip.paste()
+last = pyperclip.paste()
 while True:
-    curr=pyperclip.paste()
+    curr = pyperclip.paste()
     if curr != last:
         good_curr = curr.strip()
         print(good_curr)
