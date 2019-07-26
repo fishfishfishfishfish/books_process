@@ -37,6 +37,7 @@ class App:
     # Running methods in Threads
     def create_thread(self):
         run_thread = Thread(target=self.method_in_a_thread, args=[2])
+        run_thread.setDaemon(True)
         print(run_thread)
         run_thread.start()
 
