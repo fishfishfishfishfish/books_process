@@ -39,7 +39,8 @@ class TKContext:
         self.result_num = tkinter.StringVar()
         self.result_num_label = ttk.Label(self.window, textvariable=self.result_num, width=20)
         self.confirm_btn = tkinter.Button(self.window, text="write to db", width=10, command=self.record_to_db)
-        self.catch_btn = tkinter.Button(self.window, text="start catch", width=10, command=self.create_thread)
+        self.catch_btn = tkinter.Button(self.window, text="start catch", width=10,
+                                        command=lambda: self.create_thread(target=self.catch_query))
 
     def grid_wigets(self):
         # 数据库文件选择
@@ -71,7 +72,9 @@ class TKContext:
         self.dest_db_name.set(self.dest_db_name_entry.get())
         utils_sql_create_table.create_table(self.dest_db_name.get(), utils_sql_create_table.ResultTable, "result")
         tkinter.messagebox.showinfo(title="notice", message=f"the dest db is {self.dest_db_name.get()}")
-        self.create_thread()
+        self.dest_db_chose_btn["state"] = tkinter.DISABLED
+        self.dest_db_confirm_btn["state"] = tkinter.DISABLED
+        self.create_thread(target=self.catch_query)
 
     def record_to_db(self):
         with utils_sqlite.sqlite_shell(self.dest_db_name.get()) as cur:
@@ -85,7 +88,6 @@ class TKContext:
         self.query_content_disp.delete("1.0", tkinter.END)
         self.cur_query_word.set("")
         self.cur_meaning.set("")
-        self.remark_disp.delete("1.0", tkinter.END)
         self.window.wm_attributes('-topmost', 0)  # 窗口取消置顶
         self.confirm_btn["state"] = tkinter.DISABLED
         self.catch_btn["state"] = tkinter.DISABLED
@@ -102,30 +104,35 @@ class TKContext:
         self.before_catch()
         while True:
             curr = pyperclip.paste()
-            print(f"running -- {threading.current_thread()}")
             if curr != self.last_query:
                 self.last_query = curr
                 good_curr = curr.strip()
+                zh_translation = get_meaning.from_baidu(good_curr)
                 self.window.wm_attributes('-topmost', 1)  # 窗口置顶
-                if tkinter.messagebox.askyesno(title='catched', message=f'{good_curr}, record it?'):
+                if tkinter.messagebox.askyesno(title='catched', message=f'{good_curr}: \n{zh_translation}, \nrecord it?'):
                     self.cur_query_str.set(good_curr)
                     break
+                else:
+                    self.window.wm_attributes('-topmost', 0)  # 窗口取消置顶
         self.after_catch()
 
     # Running methods in Threads
-    def create_thread(self):
-        run_thread = threading.Thread(target=self.catch_query)
+    def create_thread(self, **kwargs):
+        run_thread = threading.Thread(**kwargs)
         run_thread.setDaemon(True)
         print(run_thread)
         run_thread.start()
 
     def get_word(self):
         self.cur_query_word.set(self.query_content_disp.selection_get())
-        self.meaning_choosing.config(values=self.get_cur_meanings())
+        self.create_thread(target=self.get_cur_meanings())
         self.cur_meaning.set("")
 
     def get_cur_meanings(self):
-        return get_meaning.from_youdao(self.cur_query_word.get())
+        meanings = []
+        meanings.extend(get_meaning.from_youdao(self.cur_query_word.get()))
+        meanings.extend(get_meaning.from_kingsoft(self.cur_query_word.get()))
+        self.meaning_choosing.config(values=meanings)
 
 
 if __name__ == "__main__":
