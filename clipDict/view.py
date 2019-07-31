@@ -66,7 +66,7 @@ class TKContext:
 
     def set_dest_db_name(self):
         self.dest_db_name_entry.delete(0, tkinter.END)
-        self.dest_db_name_entry.insert(0, filedialog.askopenfilename())
+        self.dest_db_name_entry.insert(0, filedialog.askdirectory())
 
     def get_dest_db_name(self):
         self.dest_db_name.set(self.dest_db_name_entry.get())
