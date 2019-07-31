@@ -19,7 +19,7 @@ SentenceTable = "CREATE TABLE %s (" \
 
 HighLightTable = "CREATE TABLE %s (" \
                  "id INTEGER PRIMARY KEY AUTOINCREMENT," \
-                 "highlight TEXT," \
+                 "highlight TEXT UNIQUE," \
                  "note TEXT" \
                  ");"
 

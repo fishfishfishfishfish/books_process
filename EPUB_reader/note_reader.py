@@ -17,8 +17,12 @@ class NoteReader:
                                             "highlight")
         notes = get_querys.from_csv(self.filename, [0, 1])
         for n in notes:
-            with utils_sqlite.sqlite_shell(self.dest_db_name) as cur:
-                cur.execute("INSERT INTO highlight (highlight, note) VALUES (?, ?);", n)
+            try:
+                print(n)
+                with utils_sqlite.sqlite_shell(self.dest_db_name) as cur:
+                    cur.execute("INSERT INTO highlight (highlight, note) VALUES (?, ?);", n)
+            except:
+                pass
 
     def get_meaning(self):
         utils_sql_create_table.create_table(self.dest_db_name,
@@ -35,6 +39,7 @@ class NoteReader:
             print(h[1])
             try:
                 meanings = get_meaning.from_youdao(h[1])
+                meanings.extend(get_meaning.from_kingsoft(h[1]))
                 for m in meanings:
                     print("\t", m)
                     with utils_sqlite.sqlite_shell(self.dest_db_name) as cur:

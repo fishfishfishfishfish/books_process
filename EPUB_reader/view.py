@@ -22,14 +22,14 @@ def diy_parse_content_list(content_list_file):
 
 if __name__ == "__main__":
     utils_log.initial_logger("utils_sqlite")
-    BookName = "datafield/A Clash of Kings - George R.R. Martin.epub"
+    # BookName = "datafield/A Clash of Kings - George R.R. Martin.epub"
     DBName = "datafield/A Clash of Kings - George R.R. Martin.db"
-    ER = epub_reader.EPUBReader(BookName, DBName)
-    ER.get_metadata()
-    ContentListLoc = "content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_1.html"
-    ER.get_content_list(ContentListLoc, diy_parse_content_list)
-    ER.get_sentences()
-    print("get note")
+    # ER = epub_reader.EPUBReader(BookName, DBName)
+    # ER.get_metadata()
+    # ContentListLoc = "content/George R.R. Martin - Fire and Ice 02 - A Clash of Kings v4.0 (BD)_split_1.html"
+    # ER.get_content_list(ContentListLoc, diy_parse_content_list)
+    # ER.get_sentences()
+    # print("get note")
     NoteFilename = "datafield/A Clash of Kings_clipplings1.csv"
     NR = note_reader.NoteReader(NoteFilename, DBName)
     NR.get_hightlight()
